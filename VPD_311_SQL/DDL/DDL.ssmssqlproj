@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DDL">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="STORMSSD\SQLEXPRESS:StormSSD\Storm">
+          <Created>2025-02-09T12:28:13.7585383+03:00</Created>
+          <Type>SQL</Type>
+          <Server>STORMSSD\SQLEXPRESS</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>VPD_311</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="SQLQuery1-CREATE DATABASE .sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STORMSSD\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STORMSSD\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery1-CREATE DATABASE .sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery2 - CREATE TABLE Srudents.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STORMSSD\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STORMSSD\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery2 - CREATE TABLE Srudents.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery2-CREATE TABLE Directions.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STORMSSD\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STORMSSD\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery2-CREATE TABLE Directions.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery2-CREATE TABLE Groups.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STORMSSD\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STORMSSD\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery2-CREATE TABLE Groups.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery2-CREATE TABLE Teachers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STORMSSD\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STORMSSD\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery2-CREATE TABLE Teachers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery3 - CREATE Disciplines.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STORMSSD\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STORMSSD\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery3 - CREATE Disciplines.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery4 - CREATE Schedule.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STORMSSD\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>STORMSSD\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery4 - CREATE Schedule.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
