@@ -3,7 +3,22 @@
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="STORMSSD\SQLEXPRESS:StormSSD\Storm">
+        <ConnectionNode Name="SPEKTR\SQLEXPRESS:SPEKTR\Storm">
+          <Created>2025-02-10T11:19:33.0596324+03:00</Created>
+          <Type>SQL</Type>
+          <Server>SPEKTR\SQLEXPRESS</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <TrustServerCertificate>True</TrustServerCertificate>
+          <HostNameInServerCertificate />
+          <EncryptionOption>True</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="STORMSSD\SQLEXPRESS:SPEKTR\Storm">
           <Created>2025-02-09T12:28:13.7585383+03:00</Created>
           <Type>SQL</Type>
           <Server>STORMSSD\SQLEXPRESS</Server>
@@ -11,6 +26,8 @@
           <Authentication>Windows Authentication</Authentication>
           <InitialDB>VPD_311</InitialDB>
           <LoginTimeout>15</LoginTimeout>
+          <TrustServerCertificate>False</TrustServerCertificate>
+          <EncryptionOption>True</EncryptionOption>
           <ExecutionTimeout>0</ExecutionTimeout>
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
@@ -19,6 +36,12 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
+        <FileNode Name="SQLQuery CREATE ALL BASE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SPEKTR\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SPEKTR\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery CREATE ALL BASE.sql</FullPath>
+        </FileNode>
         <FileNode Name="SQLQuery1-CREATE DATABASE .sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STORMSSD\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>STORMSSD\SQLEXPRESS</AssociatedConnSrvName>
