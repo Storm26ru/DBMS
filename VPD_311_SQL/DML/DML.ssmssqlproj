@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DML">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="SPEKTR\SQLEXPRESS:SPEKTR\Storm">
+          <Created>2025-02-16T23:46:44.1937553+03:00</Created>
+          <Type>SQL</Type>
+          <Server>SPEKTR\SQLEXPRESS</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>VPD_311_Import</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <TrustServerCertificate>True</TrustServerCertificate>
+          <HostNameInServerCertificate />
+          <EncryptionOption>True</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="SQLQuery1 - INSERT Students.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SPEKTR\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SPEKTR\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery1 - INSERT Students.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery1 - INSERT US.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SPEKTR\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SPEKTR\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery1 - INSERT US.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery2 - SELECT COUNT Disciplines for Techers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SPEKTR\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SPEKTR\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery2 - SELECT COUNT Disciplines for Techers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery2 - SELECT COUNT Students and Groups .sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SPEKTR\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SPEKTR\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery2 - SELECT COUNT Students and Groups .sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery2 - SELECT COUNT Teachers for Directions.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SPEKTR\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SPEKTR\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery2 - SELECT COUNT Teachers for Directions.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery2 - SELECT COUNT Teachers for Disciplines.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SPEKTR\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SPEKTR\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery2 - SELECT COUNT Teachers for Disciplines.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery2 - SELECT SUM Number of lessons for Directions.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SPEKTR\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SPEKTR\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery2 - SELECT SUM Number of lessons for Directions.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
