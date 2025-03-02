@@ -41,6 +41,7 @@ BEGIN
 				END
 			END
 			SET @hours = 0;
+			SET @break = 0;
 			--PRINT(@lesson_number+1);
 			--PRINT(DATEADD(MINUTE,95,@time));
 			--IF NOT EXISTS (SELECT lesson_id FROM Schedule WHERE [group]=@group AND discipline = @discipline AND [date] = @date AND [time] = DATEADD(MINUTE,95,@time))
