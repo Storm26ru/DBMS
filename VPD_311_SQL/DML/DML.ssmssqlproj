@@ -64,6 +64,18 @@
           <AssociatedConnUserName />
           <FullPath>SQLQuery2 - SELECT SUM Number of lessons for Directions.sql</FullPath>
         </FileNode>
+        <FileNode Name="SQLQuery3 - INSERT FormOfEducation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SPEKTR\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SPEKTR\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery3 - INSERT FormOfEducation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery4 - INSERT Holidays.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SPEKTR\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SPEKTR\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery4 - INSERT Holidays.sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">

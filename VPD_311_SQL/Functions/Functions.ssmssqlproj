@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
-<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Transact-SQL">
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Functions">
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
         <ConnectionNode Name="SPEKTR\SQLEXPRESS:SPEKTR\Storm">
-          <Created>2025-02-23T11:55:35.8407096+03:00</Created>
+          <Created>2025-03-04T21:01:35.089757+03:00</Created>
           <Type>SQL</Type>
           <Server>SPEKTR\SQLEXPRESS</Server>
           <UserName />
           <Authentication>Windows Authentication</Authentication>
-          <InitialDB />
+          <InitialDB>VPD_311_Import</InitialDB>
           <LoginTimeout>30</LoginTimeout>
           <TrustServerCertificate>True</TrustServerCertificate>
           <HostNameInServerCertificate />
@@ -22,77 +22,83 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="SQLQuery1 - INSERT to Schedule.sql">
+        <FileNode Name="SQLQuery1 - CheckScheldule.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SPEKTR\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>SPEKTR\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery1 - INSERT to Schedule.sql</FullPath>
+          <FullPath>SQLQuery1 - CheckScheldule.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery1 - INSERT to ScheduleForBaseSemester2.sql">
+        <FileNode Name="SQLQuery1 - ChektOffDays.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SPEKTR\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>SPEKTR\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery1 - INSERT to ScheduleForBaseSemester2.sql</FullPath>
+          <FullPath>SQLQuery1 - ChektOffDays.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery1 - INSERT to ScheduleForBaseSemester3.sql">
+        <FileNode Name="SQLQuery1 - GetHolidayId.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SPEKTR\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>SPEKTR\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery1 - INSERT to ScheduleForBaseSemester3.sql</FullPath>
+          <FullPath>SQLQuery1 - GetHolidayId.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery1 - INSERT to ScheduleForStationary.sql">
+        <FileNode Name="SQLQuery2 - GetBreak.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SPEKTR\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>SPEKTR\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery1 - INSERT to ScheduleForStationary.sql</FullPath>
+          <FullPath>SQLQuery2 - GetBreak.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery1 - INSERT to ScheduleForStationaryBaseSemester .sql">
+        <FileNode Name="SQLQuery2 - GetDayInterval.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SPEKTR\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>SPEKTR\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery1 - INSERT to ScheduleForStationaryBaseSemester .sql</FullPath>
+          <FullPath>SQLQuery2 - GetDayInterval.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery1 - PROCEDURE ScheduleForStationaryBaseSemester.sql">
+        <FileNode Name="SQLQuery2 - GetHour.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SPEKTR\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>SPEKTR\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery1 - PROCEDURE ScheduleForStationaryBaseSemester.sql</FullPath>
+          <FullPath>SQLQuery2 - GetHour.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery1 - PROCEDURE test.sql">
+        <FileNode Name="SQLQuery2 - GetNumberOfHours.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SPEKTR\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>SPEKTR\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery1 - PROCEDURE test.sql</FullPath>
+          <FullPath>SQLQuery2 - GetNumberOfHours.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery1 - SELECT FROM Schedule.sql">
+        <FileNode Name="SQLQuery3 - GetDisciplineInScheldule.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SPEKTR\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>SPEKTR\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery1 - SELECT FROM Schedule.sql</FullPath>
+          <FullPath>SQLQuery3 - GetDisciplineInScheldule.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery1.sql">
+        <FileNode Name="SQLQuery3 - GetInterval.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SPEKTR\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>SPEKTR\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery1.sql</FullPath>
+          <FullPath>SQLQuery3 - GetInterval.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery2 - CREATE PROCEDURE AddHolidays.sql">
+        <FileNode Name="SQLQuery3 - GetNumberOfLessons.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SPEKTR\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>SPEKTR\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery2 - CREATE PROCEDURE AddHolidays.sql</FullPath>
+          <FullPath>SQLQuery3 - GetNumberOfLessons.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery3 - CREATE PROCEDURE ReSchelduling.sql">
+        <FileNode Name="SQLQuery3 - GetTeacherFirstName.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SPEKTR\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>SPEKTR\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery3 - CREATE PROCEDURE ReSchelduling.sql</FullPath>
+          <FullPath>SQLQuery3 - GetTeacherFirstName.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery4 - CREATE PROCEDURE AddOffDays.sql">
+        <FileNode Name="SQLQuery4 - GetDisciplineName.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SPEKTR\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>SPEKTR\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery4 - CREATE PROCEDURE AddOffDays.sql</FullPath>
+          <FullPath>SQLQuery4 - GetDisciplineName.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery5 - GetStartDate.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SPEKTR\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SPEKTR\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery5 - GetStartDate.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

@@ -79,10 +79,28 @@
           <FullPath>SQLQuery3 - CREATE Disciplines.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery4 - CREATE Schedule.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:STORMSSD\SQLEXPRESS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>STORMSSD\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SPEKTR\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SPEKTR\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQLQuery4 - CREATE Schedule.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery5 - CREATE TABLS Holidays.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SPEKTR\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SPEKTR\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery5 - CREATE TABLS Holidays.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery6 - CREATE TABLE FormOfEducation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SPEKTR\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SPEKTR\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery6 - CREATE TABLE FormOfEducation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery7 - ALTER TABLE Groups.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SPEKTR\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SPEKTR\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery7 - ALTER TABLE Groups.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

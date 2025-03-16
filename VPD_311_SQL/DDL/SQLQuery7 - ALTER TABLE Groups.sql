@@ -1,0 +1,8 @@
+--SQLQuery7 - ALTER TABLE Groups
+USE VPD_311_Import;
+GO
+
+--ALTER TABLE Groups
+--ADD form TINYINT CONSTRAINT FK_Groups FOREIGN KEY REFERENCES FormOfEducation(form_id) NOT NULL DEFAULT 1;
+
+UPDATE Groups SET form =2 WHERE group_id=11;
